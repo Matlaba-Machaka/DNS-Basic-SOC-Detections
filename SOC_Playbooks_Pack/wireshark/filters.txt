@@ -1,0 +1,3 @@
+# Wireshark quick filters
+dns && (dns.qry.type == 16 || frame.len > 300)   # TXT or big frames
+dns && dns.flags.rcode == 3                      # NXDOMAIN
