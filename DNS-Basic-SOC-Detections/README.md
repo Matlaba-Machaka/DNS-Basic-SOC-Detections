@@ -1,7 +1,7 @@
 # SOC Playbooks Pack
 Brute-Force • Phishing • DNS Tunneling
 
-## 0) Shared SOP (applies to all)
+## Shared SOP (applies to all)
 **Severity rubric**
 - Sev1: Confirmed compromise or lateral movement
 - Sev2: Valid attack attempt w/ user impact likely
