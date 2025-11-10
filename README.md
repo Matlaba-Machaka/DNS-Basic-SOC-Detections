@@ -1,26 +1,6 @@
 # SOC Playbooks Pack
 Brute-Force • Phishing • DNS Tunneling
 
-## Shared SOP (applies to all)
-**Severity rubric**
-- Sev1: Confirmed compromise or lateral movement
-- Sev2: Valid attack attempt w/ user impact likely
-- Sev3: Suspicious/benign or blocked attempt
-
-**Ticket fields**
-`Alert ID`, `Source (SIEM/EDR/SEG)`, `Owner`, `Severity`, `Assets/Users`, `Time window`, `IOC list`, `Actions taken`, `Status`, `MITRE tags`
-
-**Evidence pack**
-Raw logs (JSON/CSV), screenshots, PCAPs, hashes, domains/URLs, headers, query exports
-
-**Comms templates**
-User notice (clickers), IT ops block request, Management summary (3–5 bullets)
-
-**MTTR targets**
-Triage ≤ 15 min • Containment ≤ 60 min • Close ≤ 24–48 h
-
----
-
 ## 1) Brute-Force Login (SSH/Windows)
 
 ### Triggers / Data
